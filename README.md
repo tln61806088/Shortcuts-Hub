@@ -8,7 +8,7 @@
 
 ## 🌐 在线访问
 
-- **🎯 推广页面**: [https://tln61806088.github.io/shortcutshub-promotion](https://tln61806088.github.io/shortcutshub-promotion)
+- **🎯 推广页面**: [[https://tln61806088.github.io/Shortcuts-Hub](https://tln61806088.github.io/Shortcuts-Hub/)
 - **🏠 官方网站**: [https://www.shortcutshub.cn](https://www.shortcutshub.cn)
 - **☁️ Claude.ai版本**: [Claude Artifact](https://claude.ai/public/artifacts/11c6d681-d8d8-4fea-9eed-75f309f74ad2)
 
