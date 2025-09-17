@@ -5,10 +5,8 @@
 专业的iOS快捷指令分享平台多语言推广页面，采用现代化设计，支持全球10种主流语言，助力品牌国际化推广。
 
 ## 🌐 在线访问
-
-- **🎯 推广页面**: [[https://tln61806088.github.io/Shortcuts-Hub](https://tln61806088.github.io/Shortcuts-Hub/)
+- 测试用
 - **🏠 官方网站**: [https://www.shortcutshub.cn](https://www.shortcutshub.cn)
-- **☁️ Claude.ai版本**: [Claude Artifact](https://claude.ai/public/artifacts/11c6d681-d8d8-4fea-9eed-75f309f74ad2)
 
 ## ✨ 核心特色
 
