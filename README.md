@@ -1,8 +1,6 @@
 # 🚀 快捷指令Hub - 多语言推广页面
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://tln61806088.github.io/shortcutshub-promotion)
 [![Website](https://img.shields.io/badge/Website-www.shortcutshub.cn-blue)](https://www.shortcutshub.cn)
-[![Languages](https://img.shields.io/badge/Languages-10-orange)](#支持语言)
 
 专业的iOS快捷指令分享平台多语言推广页面，采用现代化设计，支持全球10种主流语言，助力品牌国际化推广。
 
