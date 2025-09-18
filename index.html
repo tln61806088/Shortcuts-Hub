@@ -487,6 +487,252 @@
             }
         }
 
+        /* FAQ Section */
+        .faq-section {
+            padding: 80px 0;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .faq-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            margin-bottom: 20px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .faq-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 35px rgba(0, 0, 0, 0.15);
+        }
+
+        .faq-question {
+            padding: 25px 30px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #667eea;
+            cursor: pointer;
+            border-bottom: 1px solid rgba(102, 126, 234, 0.1);
+        }
+
+        .faq-answer {
+            padding: 25px 30px;
+            color: #444;
+            line-height: 1.7;
+            font-size: 1rem;
+        }
+
+        .faq-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 1px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .faq-link:hover {
+            border-bottom-color: #667eea;
+        }
+
+        .faq-expandable {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .faq-expand-btn {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .faq-expand-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(102, 126, 234, 0.4);
+        }
+
+        .faq-expanded-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease;
+            margin-top: 20px;
+        }
+
+        .faq-expanded-content.expanded {
+            max-height: 1000px;
+        }
+
+        /* 关键词密度优化区域 */
+        .keyword-density-section {
+            padding: 60px 0;
+            background: rgba(0, 0, 0, 0.1);
+        }
+
+        .keyword-content {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .keyword-text {
+            color: white;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        .keyword-text p {
+            margin-bottom: 20px;
+        }
+
+        .keyword-link {
+            color: #feca57;
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 1px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .keyword-link:hover {
+            border-bottom-color: #feca57;
+        }
+
+        /* 隐藏关键词区域 */
+        .hidden-keywords {
+            position: absolute !important;
+            left: -9999px !important;
+            top: -9999px !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+            width: 1px !important;
+            height: 1px !important;
+            overflow: hidden !important;
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            padding: 80px 0;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .faq-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            margin-bottom: 20px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .faq-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 35px rgba(0, 0, 0, 0.15);
+        }
+
+        .faq-question {
+            padding: 25px 30px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #667eea;
+            cursor: pointer;
+            border-bottom: 1px solid rgba(102, 126, 234, 0.1);
+        }
+
+        .faq-answer {
+            padding: 25px 30px;
+            color: #444;
+            line-height: 1.7;
+            font-size: 1rem;
+        }
+
+        .faq-answer a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 1px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .faq-answer a:hover {
+            border-bottom-color: #667eea;
+        }
+
+        .faq-expandable {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .faq-expand-btn {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .faq-expand-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(102, 126, 234, 0.4);
+        }
+
+        .faq-expanded-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-out;
+            margin-top: 20px;
+        }
+
+        .faq-expanded-content.expanded {
+            max-height: 1000px; /* Adjust as needed */
+        }
+
+        /* Keyword Density Section */
+        .keyword-density-section {
+            padding: 60px 0;
+            background: rgba(0, 0, 0, 0.1);
+        }
+
+        .keyword-content {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .keyword-text {
+            color: white;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+        
+        .keyword-text a {
+            color: #feca57;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
         /* Fade animation */
         .fade-in {
             animation: fadeIn 0.5s ease-in;
@@ -661,6 +907,67 @@
                 </div>
             </div>
         </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="container">
+                <h2 class="section-title" data-key="faq.title">常见问题</h2>
+                <div class="faq-container">
+                    <!-- Top 3 questions -->
+                    <div class="faq-item">
+                        <div class="faq-question" data-key="faq.q1.question"></div>
+                        <div class="faq-answer" data-key="faq.q1.answer"></div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" data-key="faq.q2.question"></div>
+                        <div class="faq-answer" data-key="faq.q2.answer"></div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" data-key="faq.q3.question"></div>
+                        <div class="faq-answer" data-key="faq.q3.answer"></div>
+                    </div>
+                    
+                    <!-- Expandable questions -->
+                    <div class="faq-expandable">
+                        <button class="faq-expand-btn" data-key="faq.expand.button"></button>
+                        <div class="faq-expanded-content">
+                            <div class="faq-item">
+                                <div class="faq-question" data-key="faq.q4.question"></div>
+                                <div class="faq-answer" data-key="faq.q4.answer"></div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question" data-key="faq.q5.question"></div>
+                                <div class="faq-answer" data-key="faq.q5.answer"></div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question" data-key="faq.q6.question"></div>
+                                <div class="faq-answer" data-key="faq.q6.answer"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Keyword Density Section -->
+        <section class="keyword-density-section">
+            <div class="container">
+                <div class="keyword-content">
+                    <h2 class="section-title" data-key="keyword.title"></h2>
+                    <div class="keyword-text" data-key="keyword.content"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hidden Long-tail Keywords -->
+        <div class="hidden-keywords" style="position: absolute; left: -9999px; top: -9999px; visibility: hidden; opacity: 0; width: 1px; height: 1px; overflow: hidden;">
+            <span data-key="hidden.keywords"></span>
+        </div>
+
+        <!-- 隐藏的长尾关键词区域 -->
+        <div class="hidden-keywords" style="position: absolute; left: -9999px; top: -9999px; visibility: hidden; opacity: 0;">
+            <span data-key="hidden.keywords">快捷指令下载免费 iOS快捷指令大全 iPhone快捷指令教程 苹果快捷指令安装 快捷指令使用方法 iOS自动化教程 iPhone自动化工具 快捷指令分享平台 快捷指令资源库 快捷指令制作教程 iOS工作流程 iPhone效率工具 快捷指令脚本 iOS自动化脚本 快捷指令编程 iPhone快捷方式 iOS快捷方式 苹果自动化 快捷指令社区 iOS快捷指令论坛 快捷指令技巧 iPhone使用技巧 iOS使用技巧 快捷指令优化 iPhone性能优化 iOS系统优化 快捷指令更新 iOS快捷指令更新 iPhone快捷指令更新 快捷指令兼容性 iOS兼容性 iPhone兼容性 快捷指令安全性 iOS安全性 iPhone安全性 www.shortcutshub.cn官网 快捷指令Hub官方网站 iOS快捷指令官方平台</span>
+        </div>
     </div>
 
     <!-- Footer -->
@@ -719,7 +1026,27 @@
                 'cta.subtitle': '加入10万+用户，体验自动化的魅力',
                 'cta.primary': '访问 www.shortcutshub.cn',
                 'cta.secondary': '免费注册',
-                'footer.copyright': '© 2025 快捷指令Hub. 让iOS更智能，让生活更高效。'
+                'footer.copyright': '© 2025 快捷指令Hub. 让iOS更智能，让生活更高效。',
+
+                'faq.title': '快捷指令常见问题',
+                'faq.expand.button': '查看更多问题',
+                // Chinese Top Searched Questions
+                'faq.q1.question': '如何下载和安装iOS快捷指令？',
+                'faq.q1.answer': '您可以直接访问我们的官网 <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a>，浏览并选择您需要的快捷指令。点击“获取快捷指令”按钮，您的iPhone或iPad将自动跳转到快捷指令应用完成安装。所有快捷指令都经过安全审核，请放心下载。',
+                'faq.q2.question': '快捷指令（Shortcuts）是什么？它有什么用？',
+                'faq.q2.answer': '快捷指令是苹果官方推出的一款强大的自动化工具，适用于iOS和iPadOS。它允许您将多个操作步骤组合成一个任务，通过Siri或单击图标即可执行。例如，您可以创建一个“回家模式”快捷指令，一键关闭工作应用、播放音乐并导航回家。访问 <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> 发现更多实用场景。',
+                'faq.q3.question': '从你们网站下载的快捷指令安全吗？会泄露隐私吗？',
+                'faq.q3.answer': '绝对安全。我们平台上的每一个快捷指令都经过了严格的代码审查和安全测试，确保不包含任何恶意代码或隐私窃取行为。我们强烈建议您仅从 <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> 等可信来源获取快捷指令，以保障您的设备安全。',
+                'faq.q4.question': '我的iPhone无法安装快捷指令怎么办？',
+                'faq.q4.answer': '请确保您的系统已升级至iOS 13或更高版本。首次安装第三方快捷指令时，您需要在“设置” > “快捷指令”中，开启“允许不受信任的快捷指令”选项。如果问题仍然存在，请尝试重启设备或访问我们的帮助中心 <a href="https://www.shortcutshub.cn/help">www.shortcutshub.cn/help</a>。',
+                'faq.q5.question': '快捷指令和“捷径”有什么区别？',
+                'faq.q5.answer': '它们是同一个应用的不同称呼。“捷径”是“快捷指令”应用的曾用名。在iOS 13之后，苹果将其更名为“快捷指令”并作为系统内置应用。所以，您听到的“捷径”和“快捷指令”指的是同一个东西。',
+                'faq.q6.question': '我可以自己创建或修改快捷指令吗？',
+                'faq.q6.answer': '当然可以！快捷指令应用提供了丰富的操作模块，让您可以像搭积木一样创建自己的自动化流程。您也可以从 <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> 下载现有快捷指令，并根据自己的需求进行修改和定制。',
+
+                'keyword.title': '探索iOS自动化的无限可能',
+                'keyword.content': '在 <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a>，我们致力于为您提供最全面、最安全的<strong>快捷指令</strong>资源。无论您是想寻找<strong>iOS快捷指令</strong>来提高工作效率，还是需要有趣的<strong>iPhone快捷指令</strong>来丰富日常生活，这里都有您想要的。我们不仅提供<strong>快捷指令下载</strong>，更有详细的<strong>快捷指令教程</strong>，帮助您从入门到精通。立即加入我们，体验前所未有的<strong>苹果快捷指令</strong>自动化魅力。',
+                'hidden.keywords': '快捷指令下载,iOS快捷指令大全,iPhone快捷指令怎么用,苹果快捷指令库,免费快捷指令,捷径库,Shortcuts资源,iOS自动化脚本,Siri快捷指令,快捷指令教程,如何创建快捷指令,快捷指令安全吗,www.shortcutshub.cn,快捷指令中心,一键操作,效率工具,iPhone技巧,iOS17快捷指令,iPad快捷指令,自动化流程'
             },
             'en': {
                 'hero.title': 'Shortcuts Hub',
@@ -767,7 +1094,29 @@
                 'cta.subtitle': 'Join 100K+ users and experience the magic of automation',
                 'cta.primary': 'Visit www.shortcutshub.cn',
                 'cta.secondary': 'Free Registration',
-                'footer.copyright': '© 2025 Shortcuts Hub. Making iOS smarter, making life more efficient.'
+                'footer.copyright': '© 2025 Shortcuts Hub. Making iOS smarter, making life more efficient.',
+
+                'faq.title': 'Frequently Asked Questions',
+                'faq.expand.button': 'View More Questions',
+                // English Top Searched Questions
+                'faq.q1.question': 'How to download and install iOS Shortcuts?',
+                'faq.q1.answer': 'You can visit our official website <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> to browse and select the shortcuts you need. Click the "Get Shortcut" button, and your iPhone or iPad will automatically open the Shortcuts app to complete the installation. All shortcuts are security-vetted for safe download.',
+                'faq.q2.question': 'What are Shortcuts and what are they for?',
+                'faq.q2.answer': 'Shortcuts is a powerful automation app from Apple for iOS and iPadOS. It lets you combine multiple steps into a single task that can be run with a tap or by asking Siri. For example, create a "Going Home" shortcut that turns off work apps, plays music, and navigates home. Discover more at <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a>.',
+                'faq.q3.question': 'Are shortcuts from your site safe? Will they compromise my privacy?',
+                'faq.q3.answer': 'Absolutely safe. Every shortcut on our platform undergoes rigorous code review and security testing to ensure it contains no malicious code or privacy-stealing behaviors. We strongly recommend getting shortcuts only from trusted sources like <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> to protect your device.',
+                'faq.q4.question': 'My iPhone can\'t install shortcuts. What should I do?',
+                'faq.q4.answer': 'Please ensure your system is updated to iOS 13 or later. When installing a third-party shortcut for the first time, you need to enable "Allow Untrusted Shortcuts" in "Settings" > "Shortcuts". If the issue persists, try restarting your device or visit our help center at <a href="https://www.shortcutshub.cn/help">www.shortcutshub.cn/help</a>.',
+                'faq.q5.question': 'What is the difference between "Shortcuts" and "Workflow"?',
+                'faq.q5.answer': '"Workflow" was the original name of the app before Apple acquired it. After iOS 12, it was renamed to "Shortcuts" and integrated into the system. They refer to the same automation concept.',
+                'faq.q6.question': 'Can I create or modify shortcuts myself?',
+                'faq.q6.answer': 'Yes, absolutely! The Shortcuts app provides a rich set of actions that you can use to build your own automation workflows like building blocks. You can also download existing shortcuts from <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> and customize them to fit your needs.',
+
+                'keyword.title': 'Explore the Infinite Possibilities of iOS Automation',
+                'keyword.content': 'At <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a>, we are dedicated to providing you with the most comprehensive and secure <strong>iOS Shortcuts</strong> resources. Whether you are looking for <strong>iPhone Shortcuts</strong> to boost productivity or fun <strong>Apple Shortcuts</strong> to enrich your daily life, you will find what you need here. We offer not just <strong>Shortcuts download</strong>, but also detailed <strong>Shortcuts tutorials</strong> to help you from beginner to expert. Join us now and experience the unprecedented charm of automation.',
+                'hidden.keywords': 'Shortcuts download, iOS Shortcuts library, how to use iPhone Shortcuts, Apple Shortcuts gallery, free Shortcuts, Workflow app, Siri Shortcuts, iOS automation scripts, Shortcuts tutorial, is it safe to download shortcuts, www.shortcutshub.cn, Shortcuts center, one-tap actions, productivity tools, iPhone tips, iOS 17 Shortcuts, iPad Shortcuts, automation workflow',
+                'faq.title': 'Frequently Asked Questions',
+
             },
             'es': {
                 'hero.title': 'Shortcuts Hub',
@@ -815,7 +1164,26 @@
                 'cta.subtitle': 'Únete a 100K+ usuarios y experimenta la magia de la automatización',
                 'cta.primary': 'Visitar www.shortcutshub.cn',
                 'cta.secondary': 'Registro Gratuito',
-                'footer.copyright': '© 2025 Shortcuts Hub. Haciendo iOS más inteligente, haciendo la vida más eficiente.'
+                'footer.copyright': '© 2025 Shortcuts Hub. Haciendo iOS más inteligente, haciendo la vida más eficiente.',
+                
+                'faq.title': 'Preguntas Frecuentes',
+                'faq.expand.button': 'Ver Más Preguntas',
+                'faq.q1.question': '¿Cómo descargar e instalar atajos de iOS?',
+                'faq.q1.answer': 'Puedes visitar nuestro sitio web oficial <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> para navegar y seleccionar los atajos que necesites. Haz clic en el botón "Obtener Atajo", y tu iPhone o iPad abrirá automáticamente la aplicación Atajos para completar la instalación. Todos los atajos están verificados por seguridad para una descarga segura.',
+                'faq.q2.question': '¿Qué son los Atajos y para qué sirven?',
+                'faq.q2.answer': 'Atajos es una potente aplicación de automatización de Apple para iOS y iPadOS. Te permite combinar múltiples pasos en una sola tarea que se puede ejecutar con un toque o preguntando a Siri. Por ejemplo, crear un atajo "Ir a Casa" que apague las aplicaciones de trabajo, reproduzca música y navegue a casa. Descubre más en <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a>.',
+                'faq.q3.question': '¿Son seguros los atajos de su sitio? ¿Comprometerán mi privacidad?',
+                'faq.q3.answer': 'Absolutamente seguros. Cada atajo en nuestra plataforma pasa por una rigurosa revisión de código y pruebas de seguridad para asegurar que no contenga código malicioso o comportamientos que roben privacidad. Recomendamos encarecidamente obtener atajos solo de fuentes confiables como <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> para proteger tu dispositivo.',
+                'faq.q4.question': 'Mi iPhone no puede instalar atajos. ¿Qué debo hacer?',
+                'faq.q4.answer': 'Por favor asegúrate de que tu sistema esté actualizado a iOS 13 o posterior. Al instalar un atajo de terceros por primera vez, necesitas habilitar "Permitir Atajos No Confiables" en "Configuración" > "Atajos". Si el problema persiste, intenta reiniciar tu dispositivo o visita nuestro centro de ayuda en <a href="https://www.shortcutshub.cn/help">www.shortcutshub.cn/help</a>.',
+                'faq.q5.question': '¿Cuál es la diferencia entre "Atajos" y "Workflow"?',
+                'faq.q5.answer': '"Workflow" era el nombre original de la aplicación antes de que Apple la adquiriera. Después de iOS 12, fue renombrada a "Atajos" e integrada al sistema. Se refieren al mismo concepto de automatización.',
+                'faq.q6.question': '¿Puedo crear o modificar atajos yo mismo?',
+                'faq.q6.answer': '¡Sí, absolutamente! La aplicación Atajos proporciona un rico conjunto de acciones que puedes usar para construir tus propios flujos de trabajo de automatización como bloques de construcción. También puedes descargar atajos existentes de <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> y personalizarlos para que se ajusten a tus necesidades.',
+                
+                'keyword.title': 'Explora las Infinitas Posibilidades de la Automatización iOS',
+                'keyword.content': 'En <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a>, nos dedicamos a proporcionarte los recursos de <strong>Atajos iOS</strong> más completos y seguros. Ya sea que busques <strong>Atajos iPhone</strong> para aumentar la productividad o <strong>Atajos Apple</strong> divertidos para enriquecer tu vida diaria, encontrarás lo que necesitas aquí. Ofrecemos no solo <strong>descarga de Atajos</strong>, sino también <strong>tutoriales de Atajos</strong> detallados para ayudarte desde principiante hasta experto. Únete a nosotros ahora y experimenta el encanto sin precedentes de la automatización.',
+                'hidden.keywords': 'descarga de atajos, biblioteca de atajos iOS, cómo usar atajos iPhone, galería de atajos Apple, atajos gratis, aplicación Workflow, atajos Siri, scripts de automatización iOS, tutorial de atajos, es seguro descargar atajos, www.shortcutshub.cn, centro de atajos, acciones de un toque, herramientas de productividad, consejos iPhone, atajos iOS 17, atajos iPad, flujo de trabajo de automatización'
             },
             'ar': {
                 'hero.title': 'مركز الاختصارات',
@@ -863,7 +1231,26 @@
                 'cta.subtitle': 'انضم إلى 100K+ مستخدم واختبر سحر الأتمتة',
                 'cta.primary': 'زيارة www.shortcutshub.cn',
                 'cta.secondary': 'تسجيل مجاني',
-                'footer.copyright': '© 2025 مركز الاختصارات. جعل iOS أكثر ذكاءً، جعل الحياة أكثر كفاءة.'
+                'footer.copyright': '© 2025 مركز الاختصارات. جعل iOS أكثر ذكاءً، جعل الحياة أكثر كفاءة.',
+                
+                'faq.title': 'الأسئلة الشائعة',
+                'faq.expand.button': 'عرض المزيد من الأسئلة',
+                'faq.q1.question': 'كيفية تنزيل وتثبيت اختصارات iOS؟',
+                'faq.q1.answer': 'يمكنك زيارة موقعنا الرسمي <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> لتصفح واختيار الاختصارات التي تحتاجها. انقر على زر "الحصول على الاختصار"، وسيفتح iPhone أو iPad تطبيق الاختصارات تلقائياً لإكمال التثبيت. جميع الاختصارات مفحوصة أمنياً للتنزيل الآمن.',
+                'faq.q2.question': 'ما هي الاختصارات وما فائدتها؟',
+                'faq.q2.answer': 'الاختصارات هو تطبيق أتمتة قوي من Apple لـ iOS و iPadOS. يتيح لك دمج خطوات متعددة في مهمة واحدة يمكن تشغيلها بلمسة أو بسؤال Siri. على سبيل المثال، إنشاء اختصار "العودة للمنزل" يغلق تطبيقات العمل ويشغل الموسيقى ويتنقل للمنزل. اكتشف المزيد في <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a>.',
+                'faq.q3.question': 'هل الاختصارات من موقعكم آمنة؟ هل ستعرض خصوصيتي للخطر؟',
+                'faq.q3.answer': 'آمنة تماماً. كل اختصار على منصتنا يخضع لمراجعة صارمة للكود واختبار أمني لضمان عدم احتوائه على أي كود ضار أو سلوكيات سرقة الخصوصية. نوصي بشدة بالحصول على الاختصارات فقط من مصادر موثوقة مثل <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> لحماية جهازك.',
+                'faq.q4.question': 'iPhone الخاص بي لا يستطيع تثبيت الاختصارات. ماذا أفعل؟',
+                'faq.q4.answer': 'يرجى التأكد من تحديث نظامك إلى iOS 13 أو أحدث. عند تثبيت اختصار من طرف ثالث لأول مرة، تحتاج إلى تمكين "السماح بالاختصارات غير الموثوقة" في "الإعدادات" > "الاختصارات". إذا استمرت المشكلة، جرب إعادة تشغيل جهازك أو زيارة مركز المساعدة في <a href="https://www.shortcutshub.cn/help">www.shortcutshub.cn/help</a>.',
+                'faq.q5.question': 'ما الفرق بين "الاختصارات" و "Workflow"؟',
+                'faq.q5.answer': '"Workflow" كان الاسم الأصلي للتطبيق قبل أن تستحوذ عليه Apple. بعد iOS 12، تم إعادة تسميته إلى "الاختصارات" ودمجه في النظام. يشيران إلى نفس مفهوم الأتمتة.',
+                'faq.q6.question': 'هل يمكنني إنشاء أو تعديل الاختصارات بنفسي؟',
+                'faq.q6.answer': 'نعم، بالطبع! يوفر تطبيق الاختصارات مجموعة غنية من الإجراءات التي يمكنك استخدامها لبناء تدفقات العمل الآلية الخاصة بك مثل كتل البناء. يمكنك أيضاً تنزيل اختصارات موجودة من <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> وتخصيصها لتناسب احتياجاتك.',
+                
+                'keyword.title': 'استكشف الإمكانيات اللامحدودة لأتمتة iOS',
+                'keyword.content': 'في <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a>، نحن ملتزمون بتزويدك بأكثر موارد <strong>اختصارات iOS</strong> شمولية وأماناً. سواء كنت تبحث عن <strong>اختصارات iPhone</strong> لتعزيز الإنتاجية أو <strong>اختصارات Apple</strong> ممتعة لإثراء حياتك اليومية، ستجد ما تحتاجه هنا. نحن لا نقدم فقط <strong>تنزيل الاختصارات</strong>، بل أيضاً <strong>دروس الاختصارات</strong> التفصيلية لمساعدتك من المبتدئ إلى الخبير. انضم إلينا الآن واختبر سحر الأتمتة الذي لم يسبق له مثيل.',
+                'hidden.keywords': 'تنزيل الاختصارات، مكتبة اختصارات iOS، كيفية استخدام اختصارات iPhone، معرض اختصارات Apple، اختصارات مجانية، تطبيق Workflow، اختصارات Siri، نصوص أتمتة iOS، دروس الاختصارات، هل تنزيل الاختصارات آمن، www.shortcutshub.cn، مركز الاختصارات، إجراءات بلمسة واحدة، أدوات الإنتاجية، نصائح iPhone، اختصارات iOS 17، اختصارات iPad، تدفق عمل الأتمتة'
             },
             'pt': {
                 'hero.title': 'Shortcuts Hub',
@@ -911,7 +1298,26 @@
                 'cta.subtitle': 'Junte-se a 100K+ usuários e experimente a magia da automação',
                 'cta.primary': 'Visitar www.shortcutshub.cn',
                 'cta.secondary': 'Cadastro Gratuito',
-                'footer.copyright': '© 2025 Shortcuts Hub. Tornando iOS mais inteligente, tornando a vida mais eficiente.'
+                'footer.copyright': '© 2025 Shortcuts Hub. Tornando iOS mais inteligente, tornando a vida mais eficiente.',
+                
+                'faq.title': 'Perguntas Frequentes',
+                'faq.expand.button': 'Ver Mais Perguntas',
+                'faq.q1.question': 'Como baixar e instalar Atalhos do iOS?',
+                'faq.q1.answer': 'Você pode visitar nosso site oficial <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> para navegar e selecionar os atalhos que precisa. Clique no botão "Obter Atalho", e seu iPhone ou iPad abrirá automaticamente o aplicativo Atalhos para completar a instalação. Todos os atalhos são verificados por segurança para download seguro.',
+                'faq.q2.question': 'O que são Atalhos e para que servem?',
+                'faq.q2.answer': 'Atalhos é um poderoso aplicativo de automação da Apple para iOS e iPadOS. Permite combinar múltiplas etapas em uma única tarefa que pode ser executada com um toque ou perguntando à Siri. Por exemplo, criar um atalho "Indo para Casa" que desliga aplicativos de trabalho, toca música e navega para casa. Descubra mais em <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a>.',
+                'faq.q3.question': 'Os atalhos do seu site são seguros? Eles comprometerão minha privacidade?',
+                'faq.q3.answer': 'Absolutamente seguros. Cada atalho em nossa plataforma passa por rigorosa revisão de código e testes de segurança para garantir que não contenha código malicioso ou comportamentos que roubem privacidade. Recomendamos fortemente obter atalhos apenas de fontes confiáveis como <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> para proteger seu dispositivo.',
+                'faq.q4.question': 'Meu iPhone não consegue instalar atalhos. O que devo fazer?',
+                'faq.q4.answer': 'Por favor, certifique-se de que seu sistema esteja atualizado para iOS 13 ou posterior. Ao instalar um atalho de terceiros pela primeira vez, você precisa habilitar "Permitir Atalhos Não Confiáveis" em "Configurações" > "Atalhos". Se o problema persistir, tente reiniciar seu dispositivo ou visite nosso centro de ajuda em <a href="https://www.shortcutshub.cn/help">www.shortcutshub.cn/help</a>.',
+                'faq.q5.question': 'Qual é a diferença entre "Atalhos" e "Workflow"?',
+                'faq.q5.answer': '"Workflow" era o nome original do aplicativo antes da Apple adquiri-lo. Após o iOS 12, foi renomeado para "Atalhos" e integrado ao sistema. Eles se referem ao mesmo conceito de automação.',
+                'faq.q6.question': 'Posso criar ou modificar atalhos eu mesmo?',
+                'faq.q6.answer': 'Sim, absolutamente! O aplicativo Atalhos fornece um rico conjunto de ações que você pode usar para construir seus próprios fluxos de trabalho de automação como blocos de construção. Você também pode baixar atalhos existentes de <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> e personalizá-los para atender às suas necessidades.',
+                
+                'keyword.title': 'Explore as Infinitas Possibilidades da Automação iOS',
+                'keyword.content': 'Em <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a>, nos dedicamos a fornecer os recursos de <strong>Atalhos iOS</strong> mais abrangentes e seguros. Seja procurando <strong>Atalhos iPhone</strong> para aumentar a produtividade ou <strong>Atalhos Apple</strong> divertidos para enriquecer sua vida diária, você encontrará o que precisa aqui. Oferecemos não apenas <strong>download de Atalhos</strong>, mas também <strong>tutoriais de Atalhos</strong> detalhados para ajudá-lo de iniciante a especialista. Junte-se a nós agora e experimente o charme sem precedentes da automação.',
+                'hidden.keywords': 'download de atalhos, biblioteca de atalhos iOS, como usar atalhos iPhone, galeria de atalhos Apple, atalhos grátis, aplicativo Workflow, atalhos Siri, scripts de automação iOS, tutorial de atalhos, é seguro baixar atalhos, www.shortcutshub.cn, centro de atalhos, ações de um toque, ferramentas de produtividade, dicas iPhone, atalhos iOS 17, atalhos iPad, fluxo de trabalho de automação'
             },
             'id': {
                 'hero.title': 'Shortcuts Hub',
@@ -959,7 +1365,26 @@
                 'cta.subtitle': 'Bergabung dengan 100K+ pengguna dan rasakan keajaiban otomasi',
                 'cta.primary': 'Kunjungi www.shortcutshub.cn',
                 'cta.secondary': 'Registrasi Gratis',
-                'footer.copyright': '© 2025 Shortcuts Hub. Membuat iOS lebih cerdas, membuat hidup lebih efisien.'
+                'footer.copyright': '© 2025 Shortcuts Hub. Membuat iOS lebih cerdas, membuat hidup lebih efisien.',
+                
+                'faq.title': 'Pertanyaan yang Sering Diajukan',
+                'faq.expand.button': 'Lihat Lebih Banyak Pertanyaan',
+                'faq.q1.question': 'Bagaimana cara mengunduh dan menginstal Shortcuts iOS?',
+                'faq.q1.answer': 'Anda dapat mengunjungi situs resmi kami <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> untuk menjelajahi dan memilih shortcuts yang Anda butuhkan. Klik tombol "Dapatkan Shortcut", dan iPhone atau iPad Anda akan secara otomatis membuka aplikasi Shortcuts untuk menyelesaikan instalasi. Semua shortcuts telah diverifikasi keamanannya untuk unduhan yang aman.',
+                'faq.q2.question': 'Apa itu Shortcuts dan apa kegunaannya?',
+                'faq.q2.answer': 'Shortcuts adalah aplikasi otomasi yang kuat dari Apple untuk iOS dan iPadOS. Ini memungkinkan Anda menggabungkan beberapa langkah menjadi satu tugas yang dapat dijalankan dengan satu sentuhan atau dengan bertanya kepada Siri. Misalnya, membuat shortcut "Pulang ke Rumah" yang menutup aplikasi kerja, memutar musik, dan navigasi ke rumah. Temukan lebih banyak di <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a>.',
+                'faq.q3.question': 'Apakah shortcuts dari situs Anda aman? Apakah akan membahayakan privasi saya?',
+                'faq.q3.answer': 'Benar-benar aman. Setiap shortcut di platform kami melalui tinjauan kode yang ketat dan pengujian keamanan untuk memastikan tidak mengandung kode berbahaya atau perilaku pencurian privasi. Kami sangat merekomendasikan untuk mendapatkan shortcuts hanya dari sumber terpercaya seperti <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> untuk melindungi perangkat Anda.',
+                'faq.q4.question': 'iPhone saya tidak bisa menginstal shortcuts. Apa yang harus saya lakukan?',
+                'faq.q4.answer': 'Pastikan sistem Anda telah diperbarui ke iOS 13 atau yang lebih baru. Saat menginstal shortcut pihak ketiga untuk pertama kali, Anda perlu mengaktifkan "Izinkan Shortcuts Tidak Terpercaya" di "Pengaturan" > "Shortcuts". Jika masalah berlanjut, coba restart perangkat Anda atau kunjungi pusat bantuan kami di <a href="https://www.shortcutshub.cn/help">www.shortcutshub.cn/help</a>.',
+                'faq.q5.question': 'Apa perbedaan antara "Shortcuts" dan "Workflow"?',
+                'faq.q5.answer': '"Workflow" adalah nama asli aplikasi sebelum Apple mengakuisisinya. Setelah iOS 12, aplikasi ini diganti namanya menjadi "Shortcuts" dan diintegrasikan ke dalam sistem. Keduanya merujuk pada konsep otomasi yang sama.',
+                'faq.q6.question': 'Bisakah saya membuat atau memodifikasi shortcuts sendiri?',
+                'faq.q6.answer': 'Ya, tentu saja! Aplikasi Shortcuts menyediakan serangkaian tindakan yang kaya yang dapat Anda gunakan untuk membangun alur kerja otomasi Anda sendiri seperti blok bangunan. Anda juga dapat mengunduh shortcuts yang ada dari <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> dan menyesuaikannya untuk memenuhi kebutuhan Anda.',
+                
+                'keyword.title': 'Jelajahi Kemungkinan Tak Terbatas Otomasi iOS',
+                'keyword.content': 'Di <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a>, kami berkomitmen untuk menyediakan sumber daya <strong>Shortcuts iOS</strong> yang paling komprehensif dan aman. Baik Anda mencari <strong>Shortcuts iPhone</strong> untuk meningkatkan produktivitas atau <strong>Shortcuts Apple</strong> yang menyenangkan untuk memperkaya kehidupan sehari-hari, Anda akan menemukan yang Anda butuhkan di sini. Kami tidak hanya menyediakan <strong>unduhan Shortcuts</strong>, tetapi juga <strong>tutorial Shortcuts</strong> yang detail untuk membantu Anda dari pemula hingga ahli. Bergabunglah dengan kami sekarang dan rasakan pesona otomasi yang belum pernah ada sebelumnya.',
+                'hidden.keywords': 'unduhan shortcuts, perpustakaan shortcuts iOS, cara menggunakan shortcuts iPhone, galeri shortcuts Apple, shortcuts gratis, aplikasi Workflow, shortcuts Siri, skrip otomasi iOS, tutorial shortcuts, apakah aman mengunduh shortcuts, www.shortcutshub.cn, pusat shortcuts, tindakan satu sentuhan, alat produktivitas, tips iPhone, shortcuts iOS 17, shortcuts iPad, alur kerja otomasi'
             },
             'fr': {
                 'hero.title': 'Shortcuts Hub',
@@ -1007,7 +1432,26 @@
                 'cta.subtitle': 'Rejoignez 100K+ utilisateurs et expérimentez la magie de l\'automatisation',
                 'cta.primary': 'Visiter www.shortcutshub.cn',
                 'cta.secondary': 'Inscription Gratuite',
-                'footer.copyright': '© 2025 Shortcuts Hub. Rendre iOS plus intelligent, rendre la vie plus efficace.'
+                'footer.copyright': '© 2025 Shortcuts Hub. Rendre iOS plus intelligent, rendre la vie plus efficace.',
+                
+                'faq.title': 'Questions Fréquemment Posées',
+                'faq.expand.button': 'Voir Plus de Questions',
+                'faq.q1.question': 'Comment télécharger et installer les Raccourcis iOS ?',
+                'faq.q1.answer': 'Vous pouvez visiter notre site officiel <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> pour parcourir et sélectionner les raccourcis dont vous avez besoin. Cliquez sur le bouton "Obtenir le Raccourci", et votre iPhone ou iPad ouvrira automatiquement l\'application Raccourcis pour terminer l\'installation. Tous les raccourcis sont vérifiés pour la sécurité pour un téléchargement sûr.',
+                'faq.q2.question': 'Que sont les Raccourcis et à quoi servent-ils ?',
+                'faq.q2.answer': 'Raccourcis est une puissante application d\'automatisation d\'Apple pour iOS et iPadOS. Elle vous permet de combiner plusieurs étapes en une seule tâche qui peut être exécutée d\'un simple toucher ou en demandant à Siri. Par exemple, créer un raccourci "Rentrer à la Maison" qui ferme les applications de travail, lance la musique et navigue vers la maison. Découvrez plus sur <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a>.',
+                'faq.q3.question': 'Les raccourcis de votre site sont-ils sûrs ? Compromettront-ils ma vie privée ?',
+                'faq.q3.answer': 'Absolument sûrs. Chaque raccourci sur notre plateforme passe par une révision rigoureuse du code et des tests de sécurité pour s\'assurer qu\'il ne contient aucun code malveillant ou comportement de vol de données privées. Nous recommandons fortement d\'obtenir des raccourcis uniquement à partir de sources fiables comme <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> pour protéger votre appareil.',
+                'faq.q4.question': 'Mon iPhone ne peut pas installer de raccourcis. Que dois-je faire ?',
+                'faq.q4.answer': 'Veuillez vous assurer que votre système est mis à jour vers iOS 13 ou plus récent. Lors de l\'installation d\'un raccourci tiers pour la première fois, vous devez activer "Autoriser les Raccourcis Non Fiables" dans "Réglages" > "Raccourcis". Si le problème persiste, essayez de redémarrer votre appareil ou visitez notre centre d\'aide à <a href="https://www.shortcutshub.cn/help">www.shortcutshub.cn/help</a>.',
+                'faq.q5.question': 'Quelle est la différence entre "Raccourcis" et "Workflow" ?',
+                'faq.q5.answer': '"Workflow" était le nom original de l\'application avant qu\'Apple ne l\'acquière. Après iOS 12, elle a été renommée "Raccourcis" et intégrée au système. Ils font référence au même concept d\'automatisation.',
+                'faq.q6.question': 'Puis-je créer ou modifier des raccourcis moi-même ?',
+                'faq.q6.answer': 'Oui, absolument ! L\'application Raccourcis fournit un riche ensemble d\'actions que vous pouvez utiliser pour construire vos propres flux de travail d\'automatisation comme des blocs de construction. Vous pouvez également télécharger des raccourcis existants depuis <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> et les personnaliser pour répondre à vos besoins.',
+                
+                'keyword.title': 'Explorez les Possibilités Infinies de l\'Automatisation iOS',
+                'keyword.content': 'Chez <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a>, nous nous engageons à vous fournir les ressources de <strong>Raccourcis iOS</strong> les plus complètes et sécurisées. Que vous recherchiez des <strong>Raccourcis iPhone</strong> pour augmenter la productivité ou des <strong>Raccourcis Apple</strong> amusants pour enrichir votre vie quotidienne, vous trouverez ce dont vous avez besoin ici. Nous offrons non seulement le <strong>téléchargement de Raccourcis</strong>, mais aussi des <strong>tutoriels de Raccourcis</strong> détaillés pour vous aider de débutant à expert. Rejoignez-nous maintenant et découvrez le charme sans précédent de l\'automatisation.',
+                'hidden.keywords': 'téléchargement raccourcis, bibliothèque raccourcis iOS, comment utiliser raccourcis iPhone, galerie raccourcis Apple, raccourcis gratuits, application Workflow, raccourcis Siri, scripts automatisation iOS, tutoriel raccourcis, est-il sûr de télécharger raccourcis, www.shortcutshub.cn, centre raccourcis, actions un toucher, outils productivité, astuces iPhone, raccourcis iOS 17, raccourcis iPad, flux travail automatisation'
             },
             'ja': {
                 'hero.title': 'ショートカットハブ',
@@ -1055,7 +1499,26 @@
                 'cta.subtitle': '10万+ユーザーに参加し、自動化の魔法を体験しましょう',
                 'cta.primary': 'www.shortcutshub.cn を訪問',
                 'cta.secondary': '無料登録',
-                'footer.copyright': '© 2025 ショートカットハブ. iOSをより賢く、生活をより効率的に。'
+                'footer.copyright': '© 2025 ショートカットハブ. iOSをより賢く、生活をより効率的に。',
+                
+                'faq.title': 'よくある質問',
+                'faq.expand.button': 'さらに質問を見る',
+                'faq.q1.question': 'iOSショートカットをダウンロード・インストールする方法は？',
+                'faq.q1.answer': '公式サイト <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> にアクセスして、必要なショートカットを閲覧・選択できます。「ショートカットを取得」ボタンをクリックすると、iPhoneやiPadが自動的にショートカットアプリを開いてインストールを完了します。すべてのショートカットは安全性が検証されており、安心してダウンロードできます。',
+                'faq.q2.question': 'ショートカットとは何ですか？何に使えますか？',
+                'faq.q2.answer': 'ショートカットは、iOS・iPadOS向けのApple公式の強力な自動化アプリです。複数のステップを1つのタスクに組み合わせて、タップ一つやSiriへの質問で実行できます。例えば、仕事アプリを閉じて音楽を再生し、家への道案内をする「帰宅モード」ショートカットを作成できます。詳しくは <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> をご覧ください。',
+                'faq.q3.question': 'あなたのサイトのショートカットは安全ですか？プライバシーが侵害されませんか？',
+                'faq.q3.answer': '完全に安全です。当プラットフォームのすべてのショートカットは、悪意のあるコードやプライバシー窃取行為が含まれていないことを確認するため、厳格なコードレビューとセキュリティテストを受けています。デバイスを保護するため、<a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> などの信頼できるソースからのみショートカットを取得することを強くお勧めします。',
+                'faq.q4.question': 'iPhoneでショートカットがインストールできません。どうすればよいですか？',
+                'faq.q4.answer': 'システムがiOS 13以降に更新されていることを確認してください。サードパーティのショートカットを初めてインストールする際は、「設定」>「ショートカット」で「信頼されていないショートカットを許可」を有効にする必要があります。問題が続く場合は、デバイスを再起動するか、ヘルプセンター <a href="https://www.shortcutshub.cn/help">www.shortcutshub.cn/help</a> をご覧ください。',
+                'faq.q5.question': '「ショートカット」と「Workflow」の違いは何ですか？',
+                'faq.q5.answer': '「Workflow」は、Appleが買収する前のアプリの元の名前でした。iOS 12以降、「ショートカット」に名前が変更され、システムに統合されました。どちらも同じ自動化の概念を指しています。',
+                'faq.q6.question': '自分でショートカットを作成・修正できますか？',
+                'faq.q6.answer': 'はい、もちろんです！ショートカットアプリは、ブロックのように組み合わせて独自の自動化ワークフローを構築できる豊富なアクションセットを提供しています。<a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> から既存のショートカットをダウンロードして、ニーズに合わせてカスタマイズすることもできます。',
+                
+                'keyword.title': 'iOS自動化の無限の可能性を探る',
+                'keyword.content': '<a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> では、最も包括的で安全な<strong>iOSショートカット</strong>リソースの提供に取り組んでいます。生産性を向上させる<strong>iPhoneショートカット</strong>や、日常生活を豊かにする楽しい<strong>Appleショートカット</strong>をお探しの場合でも、ここで必要なものが見つかります。<strong>ショートカットダウンロード</strong>だけでなく、初心者から専門家まで支援する詳細な<strong>ショートカットチュートリアル</strong>も提供しています。今すぐ参加して、前例のない自動化の魅力を体験してください。',
+                'hidden.keywords': 'ショートカットダウンロード, iOSショートカットライブラリ, iPhoneショートカット使い方, Appleショートカットギャラリー, 無料ショートカット, Workflowアプリ, Siriショートカット, iOS自動化スクリプト, ショートカットチュートリアル, ショートカットダウンロード安全, www.shortcutshub.cn, ショートカットセンター, ワンタップアクション, 生産性ツール, iPhoneコツ, iOS 17ショートカット, iPadショートカット, 自動化ワークフロー'
             },
             'ru': {
                 'hero.title': 'Shortcuts Hub',
@@ -1103,7 +1566,26 @@
                 'cta.subtitle': 'Присоединяйтесь к 100К+ пользователей и испытайте магию автоматизации',
                 'cta.primary': 'Посетить www.shortcutshub.cn',
                 'cta.secondary': 'Бесплатная Регистрация',
-                'footer.copyright': '© 2025 Shortcuts Hub. Делая iOS умнее, делая жизнь эффективнее.'
+                'footer.copyright': '© 2025 Shortcuts Hub. Делая iOS умнее, делая жизнь эффективнее.',
+                
+                'faq.title': 'Часто Задаваемые Вопросы',
+                'faq.expand.button': 'Посмотреть Больше Вопросов',
+                'faq.q1.question': 'Как скачать и установить Shortcuts для iOS?',
+                'faq.q1.answer': 'Вы можете посетить наш официальный сайт <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a>, чтобы просмотреть и выбрать нужные вам shortcuts. Нажмите кнопку "Получить Shortcut", и ваш iPhone или iPad автоматически откроет приложение Shortcuts для завершения установки. Все shortcuts проверены на безопасность для безопасного скачивания.',
+                'faq.q2.question': 'Что такое Shortcuts и для чего они нужны?',
+                'faq.q2.answer': 'Shortcuts - это мощное приложение автоматизации от Apple для iOS и iPadOS. Оно позволяет объединить несколько шагов в одну задачу, которую можно выполнить одним касанием или спросив у Siri. Например, создать shortcut "Домой", который закрывает рабочие приложения, включает музыку и прокладывает маршрут домой. Узнайте больше на <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a>.',
+                'faq.q3.question': 'Безопасны ли shortcuts с вашего сайта? Не скомпрометируют ли они мою конфиденциальность?',
+                'faq.q3.answer': 'Абсолютно безопасны. Каждый shortcut на нашей платформе проходит строгую проверку кода и тестирование безопасности, чтобы убедиться, что он не содержит вредоносного кода или поведения, крадущего конфиденциальные данные. Мы настоятельно рекомендуем получать shortcuts только из надежных источников, таких как <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a>, для защиты вашего устройства.',
+                'faq.q4.question': 'Мой iPhone не может установить shortcuts. Что делать?',
+                'faq.q4.answer': 'Пожалуйста, убедитесь, что ваша система обновлена до iOS 13 или новее. При первой установке стороннего shortcut вам нужно включить "Разрешить Ненадежные Shortcuts" в "Настройки" > "Shortcuts". Если проблема сохраняется, попробуйте перезагрузить устройство или посетите наш центр помощи по адресу <a href="https://www.shortcutshub.cn/help">www.shortcutshub.cn/help</a>.',
+                'faq.q5.question': 'В чем разница между "Shortcuts" и "Workflow"?',
+                'faq.q5.answer': '"Workflow" было оригинальным названием приложения до того, как Apple его приобрела. После iOS 12 оно было переименовано в "Shortcuts" и интегрировано в систему. Они относятся к одной и той же концепции автоматизации.',
+                'faq.q6.question': 'Могу ли я создавать или изменять shortcuts самостоятельно?',
+                'faq.q6.answer': 'Да, конечно! Приложение Shortcuts предоставляет богатый набор действий, которые вы можете использовать для создания собственных рабочих процессов автоматизации, как строительные блоки. Вы также можете скачать существующие shortcuts с <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> и настроить их под свои потребности.',
+                
+                'keyword.title': 'Исследуйте Безграничные Возможности Автоматизации iOS',
+                'keyword.content': 'На <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> мы стремимся предоставить вам самые полные и безопасные ресурсы <strong>iOS Shortcuts</strong>. Ищете ли вы <strong>iPhone Shortcuts</strong> для повышения продуктивности или веселые <strong>Apple Shortcuts</strong> для обогащения повседневной жизни, вы найдете то, что нужно, здесь. Мы предлагаем не только <strong>скачивание Shortcuts</strong>, но и подробные <strong>учебники по Shortcuts</strong>, чтобы помочь вам от новичка до эксперта. Присоединяйтесь к нам сейчас и испытайте беспрецедентное очарование автоматизации.',
+                'hidden.keywords': 'скачать shortcuts, библиотека iOS shortcuts, как использовать iPhone shortcuts, галерея Apple shortcuts, бесплатные shortcuts, приложение Workflow, Siri shortcuts, скрипты автоматизации iOS, учебник shortcuts, безопасно ли скачивать shortcuts, www.shortcutshub.cn, центр shortcuts, действия одним касанием, инструменты продуктивности, советы iPhone, shortcuts iOS 17, shortcuts iPad, рабочий процесс автоматизации'
             },
             'de': {
                 'hero.title': 'Shortcuts Hub',
@@ -1151,7 +1633,26 @@
                 'cta.subtitle': 'Schließe dich 100K+ Benutzern an und erlebe die Magie der Automatisierung',
                 'cta.primary': 'www.shortcutshub.cn Besuchen',
                 'cta.secondary': 'Kostenlose Registrierung',
-                'footer.copyright': '© 2025 Shortcuts Hub. iOS intelligenter machen, das Leben effizienter machen.'
+                'footer.copyright': '© 2025 Shortcuts Hub. iOS intelligenter machen, das Leben effizienter machen.',
+                
+                'faq.title': 'Häufig Gestellte Fragen',
+                'faq.expand.button': 'Mehr Fragen Anzeigen',
+                'faq.q1.question': 'Wie kann ich iOS Shortcuts herunterladen und installieren?',
+                'faq.q1.answer': 'Sie können unsere offizielle Website <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> besuchen, um die benötigten Shortcuts zu durchsuchen und auszuwählen. Klicken Sie auf die Schaltfläche "Shortcut Abrufen", und Ihr iPhone oder iPad öffnet automatisch die Shortcuts-App, um die Installation abzuschließen. Alle Shortcuts sind sicherheitsgeprüft für sicheres Herunterladen.',
+                'faq.q2.question': 'Was sind Shortcuts und wofür werden sie verwendet?',
+                'faq.q2.answer': 'Shortcuts ist eine leistungsstarke Automatisierungs-App von Apple für iOS und iPadOS. Sie ermöglicht es Ihnen, mehrere Schritte zu einer einzigen Aufgabe zu kombinieren, die mit einer Berührung oder durch Fragen an Siri ausgeführt werden kann. Zum Beispiel können Sie einen "Nach Hause"-Shortcut erstellen, der Arbeits-Apps schließt, Musik abspielt und nach Hause navigiert. Entdecken Sie mehr auf <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a>.',
+                'faq.q3.question': 'Sind die Shortcuts von Ihrer Website sicher? Werden sie meine Privatsphäre gefährden?',
+                'faq.q3.answer': 'Absolut sicher. Jeder Shortcut auf unserer Plattform durchläuft eine strenge Code-Überprüfung und Sicherheitstests, um sicherzustellen, dass er keinen bösartigen Code oder Verhalten enthält, das die Privatsphäre stiehlt. Wir empfehlen dringend, Shortcuts nur von vertrauenswürdigen Quellen wie <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> zu beziehen, um Ihr Gerät zu schützen.',
+                'faq.q4.question': 'Mein iPhone kann keine Shortcuts installieren. Was soll ich tun?',
+                'faq.q4.answer': 'Bitte stellen Sie sicher, dass Ihr System auf iOS 13 oder neuer aktualisiert ist. Bei der ersten Installation eines Drittanbieter-Shortcuts müssen Sie "Nicht vertrauenswürdige Shortcuts zulassen" in "Einstellungen" > "Shortcuts" aktivieren. Wenn das Problem weiterhin besteht, versuchen Sie, Ihr Gerät neu zu starten oder besuchen Sie unser Hilfezentrum unter <a href="https://www.shortcutshub.cn/help">www.shortcutshub.cn/help</a>.',
+                'faq.q5.question': 'Was ist der Unterschied zwischen "Shortcuts" und "Workflow"?',
+                'faq.q5.answer': '"Workflow" war der ursprüngliche Name der App, bevor Apple sie erworben hat. Nach iOS 12 wurde sie in "Shortcuts" umbenannt und in das System integriert. Sie beziehen sich auf dasselbe Automatisierungskonzept.',
+                'faq.q6.question': 'Kann ich selbst Shortcuts erstellen oder modifizieren?',
+                'faq.q6.answer': 'Ja, absolut! Die Shortcuts-App bietet einen reichen Satz von Aktionen, die Sie wie Bausteine verwenden können, um Ihre eigenen Automatisierungs-Workflows zu erstellen. Sie können auch bestehende Shortcuts von <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> herunterladen und sie an Ihre Bedürfnisse anpassen.',
+                
+                'keyword.title': 'Entdecken Sie die Unbegrenzten Möglichkeiten der iOS-Automatisierung',
+                'keyword.content': 'Bei <a href="https://www.shortcutshub.cn">www.shortcutshub.cn</a> sind wir bestrebt, Ihnen die umfassendsten und sichersten <strong>iOS Shortcuts</strong> Ressourcen zu bieten. Ob Sie nach <strong>iPhone Shortcuts</strong> zur Produktivitätssteigerung oder nach unterhaltsamen <strong>Apple Shortcuts</strong> zur Bereicherung Ihres täglichen Lebens suchen, hier finden Sie, was Sie brauchen. Wir bieten nicht nur <strong>Shortcuts Downloads</strong>, sondern auch detaillierte <strong>Shortcuts Tutorials</strong>, um Ihnen vom Anfänger zum Experten zu helfen. Treten Sie uns jetzt bei und erleben Sie den beispiellosen Charme der Automatisierung.',
+                'hidden.keywords': 'Shortcuts herunterladen, iOS Shortcuts Bibliothek, iPhone Shortcuts verwenden, Apple Shortcuts Galerie, kostenlose Shortcuts, Workflow App, Siri Shortcuts, iOS Automatisierungsskripte, Shortcuts Tutorial, ist es sicher Shortcuts herunterzuladen, www.shortcutshub.cn, Shortcuts Zentrum, Ein-Tap-Aktionen, Produktivitätstools, iPhone Tipps, iOS 17 Shortcuts, iPad Shortcuts, Automatisierungs-Workflow'
             }
         };
 
@@ -1195,7 +1696,8 @@
             document.querySelectorAll('[data-key]').forEach(element => {
                 const key = element.getAttribute('data-key');
                 if (translation[key]) {
-                    element.textContent = translation[key];
+                    // 使用innerHTML来支持HTML标签
+                    element.innerHTML = translation[key];
                 }
             });
 
@@ -1378,6 +1880,49 @@
                     }
                 });
             });
+
+            // FAQ展开功能
+            const expandBtn = document.querySelector('.faq-expand-btn');
+            const expandedContent = document.querySelector('.faq-expanded-content');
+            
+            if (expandBtn && expandedContent) {
+                expandBtn.addEventListener('click', function() {
+                    expandedContent.classList.toggle('expanded');
+                    const isExpanded = expandedContent.classList.contains('expanded');
+                    
+                    // 更新按钮文本
+                    const currentLang = currentLanguage;
+                    const collapseTexts = {
+                        'zh-CN': '收起问题',
+                        'en': 'Show Less',
+                        'es': 'Mostrar Menos',
+                        'ar': 'إظهار أقل',
+                        'pt': 'Mostrar Menos',
+                        'id': 'Tampilkan Lebih Sedikit',
+                        'fr': 'Afficher Moins',
+                        'ja': '質問を閉じる',
+                        'ru': 'Показать Меньше',
+                        'de': 'Weniger Anzeigen'
+                    };
+                    
+                    const expandTexts = {
+                        'zh-CN': '查看更多问题',
+                        'en': 'View More Questions',
+                        'es': 'Ver Más Preguntas',
+                        'ar': 'عرض المزيد من الأسئلة',
+                        'pt': 'Ver Mais Perguntas',
+                        'id': 'Lihat Lebih Banyak Pertanyaan',
+                        'fr': 'Voir Plus de Questions',
+                        'ja': 'もっと質問を見る',
+                        'ru': 'Посмотреть Больше Вопросов',
+                        'de': 'Mehr Fragen Anzeigen'
+                    };
+                    
+                    this.textContent = isExpanded ? 
+                        (collapseTexts[currentLang] || collapseTexts['zh-CN']) : 
+                        (expandTexts[currentLang] || expandTexts['zh-CN']);
+                });
+            }
 
             // 添加键盘导航支持
             document.addEventListener('keydown', function(e) {
